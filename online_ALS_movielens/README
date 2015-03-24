@@ -1,0 +1,12 @@
+online_ALS_movielens_client include:
+onlineALSMovieLens.scala is the scala source file for online_ALS_movie_lens
+run_movielens.sh is the script to run the jar file, which you can get from scala-IDE, using onlineALSMovieLens.scala
+initial_10k_movielens is the ALS initial model data
+test_10k_movielens is the data to test the RMSE accuracy of ALS model
+
+
+online_ALS_movielens_server include:
+movieLensDataSend.c is the c source file to send date to the client
+Makefile is the rules for gcc to compile movieLensDataSend.c
+run_movieLensDataSend.sh is the script to run movieLensDataSend in linux
+stream_10k_movielens is the stream data extracted from http://grouplens.org/datasets/movielens/
