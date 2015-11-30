@@ -10,4 +10,4 @@ This is a project for online machine learning based on Spark streaming. It inclu
 
 **5. ALS for recommendation**
 
-Codes are writed by Yuming Zhang and Baisheng Lai, when the participated CSDN Camp.
+It was written by Yuming Zhang and Baisheng Lai, when they participated CSDN Camp.
